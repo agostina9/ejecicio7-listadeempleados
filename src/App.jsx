@@ -1,10 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
+import EmpleadoList from './components/EmpleadoList';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="display-2">prueba</h1>
-    </div>
+    <Container>
+      <EmpleadoList></EmpleadoList>
+
+    </Container>
+
   );
 }
 
